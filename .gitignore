@@ -1,0 +1,2 @@
+# Used to exclude our private environmental variables from being pushed to GitHub
+.env
