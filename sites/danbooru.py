@@ -7,6 +7,8 @@ from http.client import responses
 
 from aiohttp import ClientSession
 
+#asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+#asyncio.run(Danbooru().download_random_images(50))
 
 class Danbooru:
 
